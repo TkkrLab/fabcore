@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary>
+    <Material name="Acryl">
+        <Entry Thickness="3.0000" Desc="Snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/3.0000/Snijden"/>
+                <minPower Value="10"/>
+                <maxPower Value="100"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="15"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="graveren">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/-1.0000/graveren"/>
+                <minPower Value="10"/>
+                <maxPower Value="30"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="75"/>
+                <PPI Value="0"/>
+                <dotSpacing Value="0"/>
+                <overscanPercent Value="1.5"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="lijnen">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/-1.0000/lijnen"/>
+                <minPower Value="10"/>
+                <maxPower Value="30"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="75"/>
+                <PPI Value="0"/>
+                <dotSpacing Value="0"/>
+                <overscanPercent Value="1.5"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.0000" Desc="Snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/2.0000/Snijden"/>
+                <minPower Value="10"/>
+                <maxPower Value="100"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="22"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="4.0000" Desc="Snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/4.0000/Snijden"/>
+                <minPower Value="10"/>
+                <maxPower Value="100"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="9"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Leather">
+        <Entry Thickness="2.0000" Desc="cut">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/2.0000/cut"/>
+                <minPower Value="10"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="18"/>
+                <PPI Value="0"/>
+                <numPasses Value="2"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.0000" Desc="engrave midle">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leather/2.0000/engrave midle"/>
+                <minPower Value="10"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="MDF">
+        <Entry Thickness="4.0000" Desc="Snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/4.0000/Snijden"/>
+                <minPower Value="10"/>
+                <maxPower Value="100"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="7"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Lijnen">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/-1.0000/Lijnen"/>
+                <minPower Value="10"/>
+                <maxPower Value="25"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="75"/>
+                <PPI Value="0"/>
+                <dotSpacing Value="0"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Graveren">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="MDF/-1.0000/Graveren"/>
+                <minPower Value="10"/>
+                <maxPower Value="30"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="75"/>
+                <PPI Value="0"/>
+                <dotSpacing Value="0"/>
+                <overscanPercent Value="1.5"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Populier">
+        <Entry Thickness="4.0000" Desc="Snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Populier/4.0000/Snijden"/>
+                <minPower Value="0"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="12"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <scanOpt Value="byGroup"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="berken">
+        <Entry Thickness="3.0000" Desc="Snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="berken/3.0000/Snijden"/>
+                <minPower Value="10"/>
+                <maxPower Value="100"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="18"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="graveren">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="berken/-1.0000/graveren"/>
+                <minPower Value="10"/>
+                <maxPower Value="30"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscanPercent Value="1.5"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <SubLayer type="Cut" index="1">
+                    <maxPower Value="20"/>
+                    <maxPower2 Value="20"/>
+                    <speed Value="100"/>
+                    <dotTime Value="1"/>
+                </SubLayer>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Lijnen">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="berken/-1.0000/Lijnen"/>
+                <minPower Value="10"/>
+                <maxPower Value="20"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="4.0000" Desc="Snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="berken/4.0000/Snijden"/>
+                <minPower Value="10"/>
+                <maxPower Value="100"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="15"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="6.0000" Desc="snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="berken/6.0000/6.00mm"/>
+                <minPower Value="10"/>
+                <maxPower Value="100"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="5.5"/>
+                <PPI Value="0"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
